@@ -11,6 +11,10 @@ public class Lesson4 {
     //static public int index;
 
 
+    int  a;
+    int b;
+
+
 
     public long intToLong(int num){
         newLong = num;
@@ -42,5 +46,10 @@ public class Lesson4 {
 
     public static String strSubstring(String str,int startIndex,int endIndex){
         return str.substring(startIndex,endIndex);
+    }
+
+
+    public  static int getSum(int a,int b){
+        return a+b;
     }
 }

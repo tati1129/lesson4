@@ -1,5 +1,7 @@
 import lesson4.Lesson4;
 
+import java.sql.SQLOutput;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -44,5 +46,19 @@ public class Main {
         System.out.println( " str.substring(3, 6) : "+ Lesson4.strSubstring(str,3, 6));
         System.out.println(" str.substring(3, str.length()) : "+ Lesson4.strSubstring(str,3, Lesson4.strLength(str)));
         System.out.println();
+
+        int a = 3;
+        int b = 5;
+        Calculator calculator = new Calculator();
+
+        calculator.printCalculate(a, b);
+        System.out.println("..................");
+        calculator.printCalculate(20,10);
+
+        System.out.println("calculator.getSum(a,b) = " + calculator.getSum(a, b));
+
     }
+
+
+
 }
