@@ -14,6 +14,9 @@ public class Main {
 
        */
 
+        char ch = 'a';
+        int valueCh = (int) ch;
+        System.out.println("value = " + valueCh);
 
         int num1 = 127;
         int num2 = 128;
